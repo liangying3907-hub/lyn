@@ -303,7 +303,15 @@
                                 it</a>
                         </div>
                     </div>
+<button onclick="toggleText()">click me</button>
+<p id="text"></p>
 
+<script>
+function toggleText() {
+    const text = document.getElementById("text");
+    text.innerText = (text.innerText === "我愛你") ? "love you" : "我愛你";
+}
+</script>
                 </div>
             </div>
         </section>
