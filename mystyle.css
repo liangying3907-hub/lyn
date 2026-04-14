@@ -1,0 +1,10 @@
+.bg-primary {
+    background-color: #f690a6 !important;
+    background-image: url("nice-snow.png");
+}
+
+.img-small {
+    width: auto;
+    height: 1%;
+    gap: 10px;
+}
